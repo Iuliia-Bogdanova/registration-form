@@ -1,4 +1,6 @@
-function check() {
+function check(event) {
+    event.preventDefault();
+
     let textn = document.getElementById("exampleInputName");
     let texts = document.getElementById("exampleInputSurname");
     let email = document.getElementById("exampleInputEmail1");
@@ -44,5 +46,15 @@ function check() {
         document.getElementById('errorMessage')
         .innerHTML+= "Passwords don't match";
     }  
+
+   /* else {
+        let textn = document.getElementById("exampleInputName").value;
+        let texts = document.getElementById("exampleInputSurname").value;
+        let email = document.getElementById("exampleInputEmail1").value;
+        let pwd = document.getElementById("exampleInputPassword1").value;
+        let pwdrepeat = document.getElementById("exampleInputPassword2").value;
+
+        let entrance = "Welcome," + textn + texts + "!";      
+    }*/
 
 }
