@@ -1,28 +1,35 @@
 .wrap {
     max-width: 600px;
+    margin: 30px auto;
+    padding: 30px;
     border: 3px solid palevioletred;
     border-radius: 10px;
+}
+
+h1, h5 {
     margin: auto;
     padding: 10px;
-}
-
-h1, h2, h3 {
     text-align: center;
-    border: 1px solid black;
-    
+    color: rgb(88, 62, 62);
+    /*border: 1px solid black;*/
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    border: 1px solid blue;
-}
-
-.form-group {
-    
+.input-group {
     margin: 20px auto;
-    padding: 20px;
-    border: 1px solid green;
 }
 
+.mb-3 {
+    max-width: 400px;
+    margin: 10px auto;
+}
+
+.btn {
+    display: block;
+    width: 180px;
+    margin: 10px auto;
+}
+
+#errorMessage {
+    text-align: center;
+    color: red;
+}
