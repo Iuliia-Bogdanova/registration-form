@@ -5,27 +5,27 @@ function check(event) {
     let texts = document.getElementById("exampleInputSurname");
     let email = document.getElementById("exampleInputEmail1");
     let pwd = document.getElementById("exampleInputPassword1");
-    let pwdrepeat = document.getElementById("exampleInputPassword2");
+    let pwdrepeat = document.getElementById("exampleInputPassword2");    
 
     document.getElementById('errorMessage').innerHTML = "";
+    document.getElementById('entrance')
+    .innerHTML= "";
 
     if (textn.value == '') {
         document.getElementById('errorMessage')
         .innerHTML+= "Your name is not filled in<br>";
-        }
+    }
 
     if (texts.value == '') {
         document.getElementById('errorMessage')
         .innerHTML+= "Your surname is not filled in<br>";
-            }
+    }
         
-    
     if (email.value == '') {
         document.getElementById('errorMessage')
         .innerHTML+= "Your email is not filled in<br>";
     }
         
-
     if (pwd.value == '') {
         document.getElementById('errorMessage')
         .innerHTML+= "Password is not filled in<br>";
@@ -36,7 +36,6 @@ function check(event) {
         .innerHTML += "Password is too short<br>";
     }
         
-
     if (pwdrepeat.value == '') {
         document.getElementById('errorMessage')
         .innerHTML+= "Password-repeat is not filled in";
@@ -46,15 +45,10 @@ function check(event) {
         document.getElementById('errorMessage')
         .innerHTML+= "Passwords don't match";
     }  
-
-   /* else {
-        let textn = document.getElementById("exampleInputName").value;
-        let texts = document.getElementById("exampleInputSurname").value;
-        let email = document.getElementById("exampleInputEmail1").value;
-        let pwd = document.getElementById("exampleInputPassword1").value;
-        let pwdrepeat = document.getElementById("exampleInputPassword2").value;
-
-        let entrance = "Welcome," + textn + texts + "!";      
-    }*/
+    
+    else {
+        document.getElementById('entrance')
+        .innerHTML+= "Welcome!";
+   }
 
 }
