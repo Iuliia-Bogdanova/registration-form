@@ -38,7 +38,7 @@ function check(event) {
         
     if (pwdrepeat.value == '') {
         document.getElementById('errorMessage')
-        .innerHTML+= "Password-repeat is not filled in";
+        .innerHTML+= "Password-repeat is not filled in<br>";
     }  
 
     if (pwdrepeat.value != pwd.value) {
@@ -48,7 +48,7 @@ function check(event) {
     
     else {
         document.getElementById('entrance')
-        .innerHTML+= "Welcome!";
+        .innerHTML+= "Welcome," + " " + textn.value + " " + texts.value + "!";
    }
 
 }
