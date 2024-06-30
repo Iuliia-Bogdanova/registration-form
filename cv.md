@@ -1,8 +1,8 @@
 ## [rsschool-cv](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv/cv.md#%D1%81%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%BD%D0%B8%D0%B5-cv) 
-[Alt Photo](1.jpeg)   
+![Alt Photo](1.jpeg)   
 # **IULIIA BOGDANOVA**  
 ## *junior frontend developer* 
-!
+
 ### **Contacts**  
 - Location: Izhevsk, Udmurtia  
 - Phone: +7 (963) 546-30-96  
