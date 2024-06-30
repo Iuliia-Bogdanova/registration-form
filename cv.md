@@ -8,6 +8,7 @@
 - Phone: +7 (963) 546-30-96  
 - E-mail: iuliia.bogdanova5020@gmail.com  
 - Telegram: Iuliia Bg  
+- Discord: iuliiabogdanova0241
 - GitHub: [Iuliia-Bogdanova](https://github.com/Iuliia-Bogdanova)  
 ---  
 ### About Me  
@@ -24,6 +25,19 @@ I love traveling, architecture, cars, animals.*
 ---  
 ### Code Example  
 ![Alt code](worker.JPG)  
+---  
+### Experience  
+For a volunteer project VEGAN.RUSSIAN, I was redesigning the website [b12.veganrussian.ru](https://b12.veganrussian.ru/).  
+---  
+### Courses  
+- ITGirlSchool  
+- RDCLR.SCHOOL  
+- R S SCHOOL  
+---  
+### Languages  
+- Russian @ Ukranian - Natives  
+- French - Upper-Intermediate  
+- English - Intermediate  
 ---  
 
 
