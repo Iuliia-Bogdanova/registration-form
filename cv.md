@@ -1,4 +1,4 @@
-[rsschool-cv](https://iuliia-bogdanova.github.io/Portfolio/)  
+[rsschool-cv](https://iuliia-bogdanova.github.io/Portfolio)  
 # **IULIIA BOGDANOVA**  
 ## *junior frontend developer* 
 ### **Contacts**  
