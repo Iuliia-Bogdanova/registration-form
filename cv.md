@@ -1,4 +1,4 @@
-## [rsschool-cv](https://iuliia-bogdanova.github.io/Portfolio)  
+## [rsschool-cv](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv/cv.md#%D1%81%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%BD%D0%B8%D0%B5-cv)  
 # **IULIIA BOGDANOVA**  
 ## *junior frontend developer* 
 ### **Contacts**  
@@ -28,7 +28,8 @@ My hobbies are traveling, architecture, cars, animals.*
 ---  
 
 ### **Code Example**  
-``document.addEventListener("DOMContentLoaded", function (event) {
+```JavaScript  
+document.addEventListener("DOMContentLoaded", function (event) {
     getWeather('Izhevsk');
 });
 
@@ -48,7 +49,9 @@ function getWeather(city) {
             document.querySelector('.visibility').innerText = "visibility " + weather.visibility + " m ";
         })
         .catch(err => console.log(err));
-}``
+}  
+```  
+
 ---  
 
 ### **Experience**  
